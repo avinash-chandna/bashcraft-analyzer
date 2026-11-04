@@ -293,7 +293,7 @@ CraftScope is designed for local or trusted self-hosted use.
 - **SSRF guard:** the starting hostname is resolved before the scan and blocked if it points to loopback, link-local, private, carrier-grade NAT, multicast, reserved, or documentation ranges. Local hostnames and cloud metadata hostnames are also blocked.
 - **Redirect confinement:** redirects are followed only within the same site identity.
 - **External request policy:** external links are never fetched.
-- **Resource caps:** 20 KB JSON request body, 2048-character URL/path limits, 4 MB HTML cap, 256 KB robots.txt cap, 6 redirects, 100 pages, and depth 6.
+- **Resource caps:** 20 KB JSON request body, 2048-character URL/path limits, 4 MB static HTML cap, 256 KB robots.txt cap, 6 redirects, 100 pages, and depth 6.
 - **Browser isolation:** each rendered page gets a fresh context; images, media, fonts, and service workers are disabled.
 - **Output safety:** React renders report text as text; external links use `rel="noreferrer noopener"`; CSV and XML exports are escaped/neutralized.
 - **Response headers:** `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, and `Referrer-Policy: strict-origin-when-cross-origin`.

@@ -292,7 +292,7 @@ The sitemap export is built from pages discovered during the crawl; it is not a 
 
 - Request body limit: 20 KB.
 - URL input limit: 2048 characters; path limit: 2048 characters.
-- HTML response cap: 4 MB; robots.txt cap: 256 KB.
+- Static HTML response cap: 4 MB; robots.txt cap: 256 KB.
 - Redirect cap: 6; page cap: 100; depth cap: 6; scan concurrency: 2.
 - Browser contexts are isolated per page; images, fonts, media, and service workers are disabled.
 - Response headers include `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, and `Referrer-Policy: strict-origin-when-cross-origin`.
