@@ -1,0 +1,36 @@
+{
+  "name": "craftscope",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A focused website analyzer for mapping BashCraft Club's pages, links, and crawl health.",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c yellow,cyan \"node --watch server/index.js\" \"vite\"",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "node --test server",
+    "check": "tsc --noEmit && npm test && vite build",
+    "fixture": "node scripts/fixture-site.mjs",
+    "verify:ui": "node scripts/verify-broken-ui.mjs",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "express": "^5.3.0",
+    "lucide-react": "^1.68.0",
+    "playwright": "^1.64.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "concurrently": "^10.0.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

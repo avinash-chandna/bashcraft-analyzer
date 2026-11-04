@@ -1,0 +1,2862 @@
+{
+  "meta": {
+    "tool": {
+      "name": "CraftScope",
+      "version": "1.0.0"
+    },
+    "generatedAt": "2026-11-04T13:38:04.237Z",
+    "startedAt": "2026-11-04T13:37:35.530Z",
+    "durationMs": 28707,
+    "inputUrl": "https://bashcraftclub.vercel.app/",
+    "startUrl": "https://bashcraftclub.vercel.app/",
+    "site": "https://bashcraftclub.vercel.app",
+    "siteKey": "bashcraftclub.vercel.app",
+    "crawledWith": "playwright"
+  },
+  "config": {
+    "maxPages": 25,
+    "maxDepth": 3,
+    "renderJsRequested": true,
+    "respectRobots": true,
+    "timeoutMs": 15000,
+    "delayBetweenRequestsMs": 200,
+    "scope": "Same hostname only (www and http/https variants are treated as the same site)."
+  },
+  "renderer": {
+    "available": true,
+    "engine": "bundled Chromium",
+    "message": "JavaScript rendering is available (bundled Chromium).",
+    "pagesRendered": 15,
+    "pagesUsingHttpFallback": 0
+  },
+  "robots": {
+    "checked": true,
+    "found": false,
+    "url": "https://bashcraftclub.vercel.app/robots.txt",
+    "status": 200,
+    "allowRuleCount": 0,
+    "disallowRuleCount": 0,
+    "crawlDelaySeconds": 0,
+    "sitemaps": [],
+    "note": "The site returned an HTML page for /robots.txt, so it was treated as having no crawl rules."
+  },
+  "summary": {
+    "pagesDiscovered": 15,
+    "healthyPages": 15,
+    "warningPages": 0,
+    "brokenPages": 0,
+    "internalLinks": 75,
+    "uniqueInternalTargets": 15,
+    "externalLinks": 43,
+    "externalLinkOccurrences": 103,
+    "externalHosts": 7,
+    "brokenLinks": 0,
+    "brokenLinkRelations": 0,
+    "linksChecked": 75,
+    "linksBlockedByRobots": 0,
+    "linksNotChecked": 0,
+    "duplicatesMerged": 84,
+    "maxDepthReached": 2,
+    "pageLimitReached": false
+  },
+  "warnings": [],
+  "notes": [
+    "External links are reported for context but are never requested or crawled.",
+    "Redirects are followed only within the same site; off-site redirects are reported as warnings.",
+    "JavaScript is rendered in an isolated headless browser when available. Images, fonts, and media are blocked.",
+    "Hash-only links are treated as in-page anchors and are not separate pages."
+  ],
+  "pages": [
+    {
+      "url": "https://bashcraftclub.vercel.app/",
+      "requestedUrl": "https://bashcraftclub.vercel.app/",
+      "path": "/",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "WELCOME TO BASHCRAFT CLUB",
+      "lang": "en",
+      "depth": 0,
+      "parent": null,
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 4878,
+      "htmlBytes": 29618,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 5,
+        "externalLinks": 11,
+        "incomingInternalLinks": 11
+      },
+      "children": [
+        "https://bashcraftclub.vercel.app/about",
+        "https://bashcraftclub.vercel.app/events",
+        "https://bashcraftclub.vercel.app/team",
+        "https://bashcraftclub.vercel.app/contact"
+      ]
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/about",
+      "requestedUrl": "https://bashcraftclub.vercel.app/about",
+      "path": "/about",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "NO FLUFF. ONLY ASLI ENGINEERING.",
+      "lang": "en",
+      "depth": 1,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "ABOUT"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1470,
+      "htmlBytes": 17024,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 5,
+        "externalLinks": 0,
+        "incomingInternalLinks": 11
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/events",
+      "requestedUrl": "https://bashcraftclub.vercel.app/events",
+      "path": "/events",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "EVENTS ARCHIVE",
+      "lang": "en",
+      "depth": 1,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "EVENTS"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1986,
+      "htmlBytes": 16166,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 9,
+        "externalLinks": 0,
+        "incomingInternalLinks": 15
+      },
+      "children": [
+        "https://bashcraftclub.vercel.app/events/social-loop",
+        "https://bashcraftclub.vercel.app/events/bashnex26",
+        "https://bashcraftclub.vercel.app/events/arpit-bhayani",
+        "https://bashcraftclub.vercel.app/events/investathon"
+      ]
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team",
+      "path": "/team",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "OUR TEAMS",
+      "lang": "en",
+      "depth": 1,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1380,
+      "htmlBytes": 61571,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 11,
+        "externalLinks": 35,
+        "incomingInternalLinks": 11
+      },
+      "children": [
+        "https://bashcraftclub.vercel.app/team/web-dev",
+        "https://bashcraftclub.vercel.app/team/design",
+        "https://bashcraftclub.vercel.app/team/content",
+        "https://bashcraftclub.vercel.app/team/events",
+        "https://bashcraftclub.vercel.app/team/pr",
+        "https://bashcraftclub.vercel.app/team/social"
+      ]
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/contact",
+      "requestedUrl": "https://bashcraftclub.vercel.app/contact",
+      "path": "/contact",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "HELLO@ BASHCRAFT.COM",
+      "lang": "en",
+      "depth": 1,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "CONTACT"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1647,
+      "htmlBytes": 18752,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 5,
+        "externalLinks": 2,
+        "incomingInternalLinks": 11
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/events/social-loop",
+      "requestedUrl": "https://bashcraftclub.vercel.app/events/social-loop",
+      "path": "/events/social-loop",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "SOCIAL LOOP",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/events",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "01 Social Loop STAGE · FRESHERS' TALENT SHOW 13 SEP · 2026"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1578,
+      "htmlBytes": 13904,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 1,
+        "externalLinks": 0,
+        "incomingInternalLinks": 1
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/events/bashnex26",
+      "requestedUrl": "https://bashcraftclub.vercel.app/events/bashnex26",
+      "path": "/events/bashnex26",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "BashNex'26",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/events",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "01 BashNex'26 FLAGSHIP · THE SPECTRUM OF TECH 13 – 14 JUN · 2026"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1274,
+      "htmlBytes": 26062,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 1,
+        "externalLinks": 0,
+        "incomingInternalLinks": 1
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/events/arpit-bhayani",
+      "requestedUrl": "https://bashcraftclub.vercel.app/events/arpit-bhayani",
+      "path": "/events/arpit-bhayani",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "TechTalk with Arpit Bhayani",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/events",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "02 TechTalk with Arpit Bhayani GUEST SESSION ARCHIVED"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1267,
+      "htmlBytes": 5981,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 1,
+        "externalLinks": 0,
+        "incomingInternalLinks": 1
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/events/investathon",
+      "requestedUrl": "https://bashcraftclub.vercel.app/events/investathon",
+      "path": "/events/investathon",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Investathon",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/events",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "03 Investathon FINANCE HACKATHON × ZERODHA 26 · MAR"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1275,
+      "htmlBytes": 7684,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 1,
+        "externalLinks": 0,
+        "incomingInternalLinks": 1
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/web-dev",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+      "path": "/team/web-dev",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Technical Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "TECHNICAL TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1484,
+      "htmlBytes": 16007,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 9,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/design",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/design",
+      "path": "/team/design",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Design Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "DESIGN TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1584,
+      "htmlBytes": 12605,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 7,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/content",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/content",
+      "path": "/team/content",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Content Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "CONTENT TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1323,
+      "htmlBytes": 14568,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 8,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/events",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/events",
+      "path": "/team/events",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Event Management Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "EVENT MANAGEMENT TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1285,
+      "htmlBytes": 20806,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 12,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/pr",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/pr",
+      "path": "/team/pr",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "PR & Outreach Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "PR & OUTREACH TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1415,
+      "htmlBytes": 16014,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 9,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    },
+    {
+      "url": "https://bashcraftclub.vercel.app/team/social",
+      "requestedUrl": "https://bashcraftclub.vercel.app/team/social",
+      "path": "/team/social",
+      "title": "BashCraft Club — no fluff; just engineering",
+      "titleLength": 43,
+      "description": "BashCraft Club is a high-impact creative community focused on building elite UX/UI design, product thinking, and digital creativity skills.",
+      "h1": "Social Media & Photography Team",
+      "lang": "en",
+      "depth": 2,
+      "parent": {
+        "url": "https://bashcraftclub.vercel.app/team",
+        "title": "BashCraft Club — no fluff; just engineering",
+        "linkText": "SOCIAL MEDIA & PHOTOGRAPHY TEAM"
+      },
+      "statusCode": 200,
+      "health": "ok",
+      "soft404": false,
+      "failureReason": null,
+      "contentType": "text/html; charset=utf-8",
+      "rendered": true,
+      "responseTimeMs": 1462,
+      "htmlBytes": 17985,
+      "redirects": [],
+      "externalRedirect": false,
+      "truncated": false,
+      "error": null,
+      "renderError": null,
+      "warnings": [],
+      "counts": {
+        "internalLinks": 6,
+        "externalLinks": 10,
+        "incomingInternalLinks": 2
+      },
+      "children": []
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/",
+        "sourcePath": "/",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/",
+        "sourcePath": "/",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/",
+        "sourcePath": "/",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/",
+        "sourcePath": "/",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/",
+        "sourcePath": "/",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/about",
+        "sourcePath": "/about",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/about",
+        "sourcePath": "/about",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/about",
+        "sourcePath": "/about",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/about",
+        "sourcePath": "/about",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/about",
+        "sourcePath": "/about",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events/social-loop",
+        "targetPath": "/events/social-loop",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "01 Social Loop STAGE · FRESHERS' TALENT SHOW 13 SEP · 2026",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events/bashnex26",
+        "targetPath": "/events/bashnex26",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "01 BashNex'26 FLAGSHIP · THE SPECTRUM OF TECH 13 – 14 JUN · 2026",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events/arpit-bhayani",
+        "targetPath": "/events/arpit-bhayani",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "02 TechTalk with Arpit Bhayani GUEST SESSION ARCHIVED",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events",
+        "sourcePath": "/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events/investathon",
+        "targetPath": "/events/investathon",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "03 Investathon FINANCE HACKATHON × ZERODHA 26 · MAR",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "targetPath": "/team/web-dev",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TECHNICAL TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/design",
+        "targetPath": "/team/design",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "DESIGN TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/content",
+        "targetPath": "/team/content",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTENT TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/events",
+        "targetPath": "/team/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENT MANAGEMENT TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "targetPath": "/team/pr",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "PR & OUTREACH TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team",
+        "sourcePath": "/team",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/social",
+        "targetPath": "/team/social",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "SOCIAL MEDIA & PHOTOGRAPHY TEAM",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/contact",
+        "sourcePath": "/contact",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/contact",
+        "sourcePath": "/contact",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/contact",
+        "sourcePath": "/contact",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/contact",
+        "sourcePath": "/contact",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/contact",
+        "sourcePath": "/contact",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events/social-loop",
+        "sourcePath": "/events/social-loop",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ARCHIVE",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events/bashnex26",
+        "sourcePath": "/events/bashnex26",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ARCHIVE",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events/arpit-bhayani",
+        "sourcePath": "/events/arpit-bhayani",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ARCHIVE",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/events/investathon",
+        "sourcePath": "/events/investathon",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ARCHIVE",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "sourcePath": "/team/web-dev",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/web-dev",
+        "targetPath": "/team/web-dev",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/design",
+        "sourcePath": "/team/design",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/design",
+        "targetPath": "/team/design",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/content",
+        "sourcePath": "/team/content",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/content",
+        "targetPath": "/team/content",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/events",
+        "sourcePath": "/team/events",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/events",
+        "targetPath": "/team/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "sourcePath": "/team/pr",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/pr",
+        "targetPath": "/team/pr",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/",
+        "targetPath": "/",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "BASHCRAFT.",
+        "rel": "",
+        "depth": 0,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/about",
+        "targetPath": "/about",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "ABOUT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/events",
+        "targetPath": "/events",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "EVENTS",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team",
+        "targetPath": "/team",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "TEAM",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/contact",
+        "targetPath": "/contact",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "CONTACT",
+        "rel": "",
+        "depth": 1,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      },
+      {
+        "sourceUrl": "https://bashcraftclub.vercel.app/team/social",
+        "sourcePath": "/team/social",
+        "sourceTitle": "BashCraft Club — no fluff; just engineering",
+        "sourceHealth": "ok",
+        "targetUrl": "https://bashcraftclub.vercel.app/team/social",
+        "targetPath": "/team/social",
+        "targetTitle": "BashCraft Club — no fluff; just engineering",
+        "text": "Terms & Conditions",
+        "rel": "",
+        "depth": 2,
+        "status": "ok",
+        "statusCode": 200,
+        "reason": null,
+        "viaRedirect": false,
+        "soft404": false
+      }
+    ],
+    "external": [
+      {
+        "url": "https://www.linkedin.com/company/bashcraft",
+        "host": "www.linkedin.com",
+        "sourceCount": 9,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/contact",
+            "path": "/contact",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "in [ 01 ] NETWORK Connect → LINKEDIN Professional Network Let's connect professionally"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LINKEDIN arrow_forward"
+          }
+        ]
+      },
+      {
+        "url": "https://bashcraft.substack.com/",
+        "host": "bashcraft.substack.com",
+        "sourceCount": 8,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Newsletter ↗"
+          }
+        ]
+      },
+      {
+        "url": "https://github.com/BashCraftClub",
+        "host": "github.com",
+        "sourceCount": 8,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "GITHUB arrow_forward"
+          }
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/bashcraft.vit",
+        "host": "www.instagram.com",
+        "sourceCount": 8,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "INSTAGRAM arrow_forward"
+          }
+        ]
+      },
+      {
+        "url": "http://linkedin.com/in/arun-chaudhary-9b9547363",
+        "host": "linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "http://www.linkedin.com/in/harshita-yadav-b4758132a",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "http://www.linkedin.com/in/megh-joshi-35a681379",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/aditi-singh-6aa56a379",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/aditya-rajput-260191384",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/ameesha-kumari-663855411",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/anmol-panjwani-0b6407379",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/anushka-yadav-118b14390",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/apoorav-raina-82a800343",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/avin-pareek-8ba67b3a8",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/deepanshu-arora-1b6254394",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/hardik-pratap-singh-83b809397",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/irfan-a-5440b51b8",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/janvee-gupta-57b8b940b",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/kshitij-jha-5b2b48377",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/mridul-sharma-637160307",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/omshrivastava",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/priyansh-saxena-45885a37b",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/raunak-sharma-b91650344",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/ridhima-pandey-980a21270",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/rishabh-kapoor-755a4639b",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/samriddh-sinha-65915b313",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/saumya-dayal-8a65a7377",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/shivi-sanjay-326a84324",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/shrikant-nimbhorkar-5a18ba372",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/social",
+            "path": "/team/social",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/shrinivas-medewar-374a86219",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/web-dev",
+            "path": "/team/web-dev",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/sumit-sumit-34b109381",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/sunny-yadav-513996338",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/design",
+            "path": "/team/design",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/vardaan-yadav-51b5b93ba",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/events",
+            "path": "/team/events",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/yashvi-ghaatiya-31909a424",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/pr",
+            "path": "/team/pr",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/yuvraj-rajoriya-20b590323",
+        "host": "www.linkedin.com",
+        "sourceCount": 2,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/team",
+            "path": "/team",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          },
+          {
+            "url": "https://bashcraftclub.vercel.app/team/content",
+            "path": "/team/content",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSet2OxNsCdiiDH-U512SJlDNXjHxsLrfaoO1Hh7-9DpFJz01Q/viewform",
+        "host": "docs.google.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "JOIN US NOW ↗"
+          }
+        ]
+      },
+      {
+        "url": "https://forms.gle/2Ro4kZnY9DGwKabv5",
+        "host": "forms.gle",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "REGISTRATIONS OPEN"
+          }
+        ]
+      },
+      {
+        "url": "https://www.instagram.com/bashcraft.vit?igsh=OWpibHJ4bWYyazU2",
+        "host": "www.instagram.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/contact",
+            "path": "/contact",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "[ 02 ] VISUALS Follow → INSTAGRAM Behind the Scenes See our latest work"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/anusha-singh-rajput-361096340",
+        "host": "www.linkedin.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Anusha Singh Rajput LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/aryan-chaturvedi1602",
+        "host": "www.linkedin.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Aryan Chaturvedi LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/divyansh-agrawal-ab9117331",
+        "host": "www.linkedin.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Divyansh Agrawal LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/prantik-kesariya",
+        "host": "www.linkedin.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Prantik Kesariya LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "url": "https://www.linkedin.com/in/vinehagupta",
+        "host": "www.linkedin.com",
+        "sourceCount": 1,
+        "sources": [
+          {
+            "url": "https://bashcraftclub.vercel.app/",
+            "path": "/",
+            "title": "BashCraft Club — no fluff; just engineering",
+            "text": "Vineha Gupta LinkedIn profile"
+          }
+        ]
+      }
+    ],
+    "broken": []
+  },
+  "externalHosts": [
+    {
+      "host": "www.linkedin.com",
+      "targets": 36,
+      "sourceCount": 74
+    },
+    {
+      "host": "www.instagram.com",
+      "targets": 2,
+      "sourceCount": 9
+    },
+    {
+      "host": "bashcraft.substack.com",
+      "targets": 1,
+      "sourceCount": 8
+    },
+    {
+      "host": "github.com",
+      "targets": 1,
+      "sourceCount": 8
+    },
+    {
+      "host": "linkedin.com",
+      "targets": 1,
+      "sourceCount": 2
+    },
+    {
+      "host": "docs.google.com",
+      "targets": 1,
+      "sourceCount": 1
+    },
+    {
+      "host": "forms.gle",
+      "targets": 1,
+      "sourceCount": 1
+    }
+  ]
+}

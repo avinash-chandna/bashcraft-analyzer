@@ -1,0 +1,76 @@
+source_url,source_path,target_url,target_path,status,http_status,failure_reason,link_text
+https://bashcraftclub.vercel.app/,/,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/,/,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/,/,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/,/,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/,/,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/about,/about,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/about,/about,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/about,/about,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/about,/about,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/about,/about,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/events/social-loop,/events/social-loop,ok,200,,01 Social Loop STAGE · FRESHERS' TALENT SHOW 13 SEP · 2026
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/events/bashnex26,/events/bashnex26,ok,200,,01 BashNex'26 FLAGSHIP · THE SPECTRUM OF TECH 13 – 14 JUN · 2026
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/events/arpit-bhayani,/events/arpit-bhayani,ok,200,,02 TechTalk with Arpit Bhayani GUEST SESSION ARCHIVED
+https://bashcraftclub.vercel.app/events,/events,https://bashcraftclub.vercel.app/events/investathon,/events/investathon,ok,200,,03 Investathon FINANCE HACKATHON × ZERODHA 26 · MAR
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,ok,200,,TECHNICAL TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/design,/team/design,ok,200,,DESIGN TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/content,/team/content,ok,200,,CONTENT TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/events,/team/events,ok,200,,EVENT MANAGEMENT TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/pr,/team/pr,ok,200,,PR & OUTREACH TEAM
+https://bashcraftclub.vercel.app/team,/team,https://bashcraftclub.vercel.app/team/social,/team/social,ok,200,,SOCIAL MEDIA & PHOTOGRAPHY TEAM
+https://bashcraftclub.vercel.app/contact,/contact,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/contact,/contact,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/contact,/contact,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/contact,/contact,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/contact,/contact,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/events/social-loop,/events/social-loop,https://bashcraftclub.vercel.app/events,/events,ok,200,,ARCHIVE
+https://bashcraftclub.vercel.app/events/bashnex26,/events/bashnex26,https://bashcraftclub.vercel.app/events,/events,ok,200,,ARCHIVE
+https://bashcraftclub.vercel.app/events/arpit-bhayani,/events/arpit-bhayani,https://bashcraftclub.vercel.app/events,/events,ok,200,,ARCHIVE
+https://bashcraftclub.vercel.app/events/investathon,/events/investathon,https://bashcraftclub.vercel.app/events,/events,ok,200,,ARCHIVE
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,https://bashcraftclub.vercel.app/team/web-dev,/team/web-dev,ok,200,,Terms & Conditions
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/design,/team/design,https://bashcraftclub.vercel.app/team/design,/team/design,ok,200,,Terms & Conditions
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/content,/team/content,https://bashcraftclub.vercel.app/team/content,/team/content,ok,200,,Terms & Conditions
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/events,/team/events,https://bashcraftclub.vercel.app/team/events,/team/events,ok,200,,Terms & Conditions
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/pr,/team/pr,https://bashcraftclub.vercel.app/team/pr,/team/pr,ok,200,,Terms & Conditions
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/,/,ok,200,,BASHCRAFT.
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/about,/about,ok,200,,ABOUT
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/events,/events,ok,200,,EVENTS
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/team,/team,ok,200,,TEAM
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/contact,/contact,ok,200,,CONTACT
+https://bashcraftclub.vercel.app/team/social,/team/social,https://bashcraftclub.vercel.app/team/social,/team/social,ok,200,,Terms & Conditions
