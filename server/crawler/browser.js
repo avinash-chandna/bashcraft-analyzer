@@ -15,45 +15,37 @@ let rendererInfo = {
 
 function friendlyNavigationError(error, timeoutMs) {
   const message = String(error?.message || error);
-  const detail = message.slice(0, 600);
-  const withDetail = (result) => ({ ...result, detail });
   if (error?.name === "TimeoutError" || /timeout/i.test(message)) {
-    return withDetail({
+    return {
       code: "TIMEOUT",
       message: `The page did not finish loading within ${Math.round(timeoutMs / 1000)} seconds.`,
-    });
+    };
   }
   if (/ERR_NAME_NOT_RESOLVED/i.test(message)) {
-    return withDetail({ code: "DNS_ERROR", message: "The browser could not resolve this hostname." });
+    return { code: "DNS_ERROR", message: "The browser could not resolve this hostname." };
   }
   if (/ERR_CONNECTION_REFUSED/i.test(message)) {
-    return withDetail({
-      code: "CONNECTION_REFUSED",
-      message: "The server refused the browser connection.",
-    });
+    return { code: "CONNECTION_REFUSED", message: "The server refused the browser connection." };
   }
   if (/ERR_CERT|SSL|TLS/i.test(message)) {
-    return withDetail({
+    return {
       code: "TLS_ERROR",
       message: "The site's HTTPS certificate could not be validated.",
-    });
+    };
   }
   if (/ERR_CONNECTION_RESET|ERR_CONNECTION_CLOSED/i.test(message)) {
-    return withDetail({
-      code: "CONNECTION_RESET",
-      message: "The connection closed before the page loaded.",
-    });
+    return { code: "CONNECTION_RESET", message: "The connection closed before the page loaded." };
   }
   if (/ERR_INTERNET_DISCONNECTED/i.test(message)) {
-    return withDetail({ code: "OFFLINE", message: "The crawler appears to be offline." });
+    return { code: "OFFLINE", message: "The crawler appears to be offline." };
   }
   if (/ERR_ABORTED/i.test(message)) {
-    return withDetail({
+    return {
       code: "NAVIGATION_ABORTED",
       message: "The browser stopped loading before the page was ready.",
-    });
+    };
   }
-  return withDetail({ code: "BROWSER_ERROR", message: "The page failed to load in the browser." });
+  return { code: "BROWSER_ERROR", message: "The page failed to load in the browser." };
 }
 
 /**
