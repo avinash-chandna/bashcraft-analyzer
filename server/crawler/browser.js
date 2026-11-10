@@ -433,12 +433,13 @@ async function renderPageWithPuppeteer(inputUrl, { timeoutMs = 15000, signal } =
     };
   }
 
-  let context;
   let page;
   let onAbort = null;
   try {
-    context = await instance.createBrowserContext();
-    page = await context.newPage();
+    // @sparticuz/chromium does not support creating a separate browser
+    // context: createBrowserContext()/context.newPage() closes the target.
+    // A fresh page in the default context is still isolated enough here.
+    page = await instance.newPage();
     await page.setUserAgent(DEFAULT_USER_AGENT);
     await page.setViewport({ width: 1440, height: 1000 });
 
@@ -516,7 +517,7 @@ async function renderPageWithPuppeteer(inputUrl, { timeoutMs = 15000, signal } =
     };
   } finally {
     if (signal && onAbort) signal.removeEventListener("abort", onAbort);
-    if (context) await context.close().catch(() => {});
+    if (page) await page.close().catch(() => {});
   }
 }
 
