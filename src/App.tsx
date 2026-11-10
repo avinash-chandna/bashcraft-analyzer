@@ -196,8 +196,20 @@ export default function App() {
         } catch {
           // A non-JSON proxy error should still yield a useful fallback.
         }
+
+        const apiMessage = errorPayload.error?.message;
+        const missingApi =
+          response.status === 404 && (!apiMessage || /page could not be found/i.test(apiMessage));
+        if (missingApi) {
+          throw new ScanRequestError(
+            "The analyzer API is not available on this deployment.",
+            "API_UNAVAILABLE",
+            "Deploy the included serverless API (the `api/` directory) or run `npm start` locally. A static frontend alone cannot crawl websites.",
+          );
+        }
+
         throw new ScanRequestError(
-          errorPayload.error?.message || `The analyzer returned HTTP ${response.status}.`,
+          apiMessage || `The analyzer returned HTTP ${response.status}.`,
           errorPayload.error?.code || "API_ERROR",
           errorPayload.error?.hint || null,
         );

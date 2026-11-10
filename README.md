@@ -82,6 +82,18 @@ npm start
 
 Open <http://localhost:8787>. Express serves both the API and the built frontend from `dist/`.
 
+### Deploy on Vercel
+
+The repository includes Vercel Functions in `api/`, so the frontend and crawler deploy together:
+
+1. Import the repository at [vercel.com/new](https://vercel.com/new).
+2. Keep the detected Vite settings (`npm run build`, output `dist`). `vercel.json` records them explicitly.
+3. Deploy. `/api/analyze`, `/api/health`, and `/api/meta` are served by the functions in `api/`.
+
+JavaScript rendering on Vercel uses `@sparticuz/chromium`, which is bundled into the function. The first scan after a cold start can take a few extra seconds. If Chromium cannot start, the crawler automatically falls back to static HTML analysis and records a warning in the report.
+
+A static-only deployment will not work: the frontend needs the API to crawl sites. If the API is missing, CraftScope now reports an `API_UNAVAILABLE` error instead of surfacing a raw host 404.
+
 ## Using the app
 
 1. Enter a public `http://` or `https://` URL. A bare domain is upgraded to `https://`.
@@ -340,8 +352,14 @@ The check verifies two broken targets (HTTP 404 and soft 404), the JS-generated 
 ## Project layout
 
 ```text
+api/
+  analyze.js               Vercel Function entrypoint for POST /api/analyze
+  health.js                Vercel Function entrypoint for GET /api/health
+  meta.js                  Vercel Function entrypoint for GET /api/meta
+
 server/
-  index.js                 Express API, NDJSON streaming, static serving
+  app.js                   Express API, NDJSON streaming, optional static serving
+  index.js                 Self-hosted server entrypoint
   crawler/
     analyzer.js            Crawl orchestration and report aggregation
     browser.js             Playwright rendering with Chrome/Edge fallback
